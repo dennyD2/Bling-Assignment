@@ -15,10 +15,14 @@ public class ForgotPasswordTest {
         page.launchBrowser();
     }
 
+//    @Test
+//    public void forgotPasswordTest() throws InterruptedException {
+//        page.clickForgotPassword();
+//        Assert.assertEquals(page.isForgotPasswordModalDisplayed(), true);
+//    }
     @Test
-    public void forgotPasswordTest() throws InterruptedException {
-        page.clickForgotPassword();
-        Assert.assertEquals(page.isForgotPasswordModalDisplayed(), true);
+    public void checkPresenceOfUIElementsTest(){
+        Assert.assertEquals(page.checkPresenceOfUIElements(), true);
     }
 
     @AfterClass
