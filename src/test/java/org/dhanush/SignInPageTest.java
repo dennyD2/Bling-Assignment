@@ -30,10 +30,10 @@ public class SignInPageTest {
     public void checkSignUpLinkForInvalidEmailInvalidPasswordTest(){
         Assert.assertEquals(page.checkSignUpLinkForInvalidEmailInvalidPassword("dhanushdenny@gmail.com","bling@12345"), true);
     }
-//    @Test
-//    public void checkEmailIdWithoutAtAndValidPasswordTest(){
-//        Assert.assertEquals(page.enterEmailIdWithoutAtAndValidPassword("dhanush2dennygmail.com"), true);
-//    }
+    @Test
+    public void checkEmailIdWithoutAtAndValidPasswordTest(){
+        Assert.assertEquals(page.enterEmailIdWithoutAtAndValidPassword("dhanush2dennygmail.com"), true);
+    }
     @Test
     public void checkValidEmailAndInvalidPasswordTest(){
         Assert.assertEquals(page.enterValidEmailAndInvalidPassword("bling@123"), true);

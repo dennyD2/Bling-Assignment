@@ -18,7 +18,7 @@ public class SignInPage extends BasePage {
     private By homePageText = By.xpath("//h1[@id='page-title']");
     private By accountDoesNotExist = By.xpath("//p[@class='email-error-text main-email-error-text']");
     private By pleaseSignUp = By.xpath("(//a[@href='signup.html'])[1]");
-    private By pleaseEnterValidEmail = By.xpath("//p[@class='password-error-text']");
+    private By pleaseEnterValidEmail = By.xpath("//p[@class='email-error-text main-email-error-text']");
     private By createAccountText = By.xpath("//p[text()='Create Account']");
     private By youAreNotAuthorised = By.xpath("//p[@class='email-error-text main-email-error-text']");
     private By pleaseProvideAnEmail = By.xpath("//p[@class='email-error-text main-email-error-text']");

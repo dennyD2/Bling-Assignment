@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8702320-3479-400b-ac66-b867826e06c7" name="Changes" comment="Bling-assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dhanush/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dhanush/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dhanush/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dhanush/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dhanush/ForgotPasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dhanush/ForgotPasswordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dhanush/SignInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dhanush/SignInPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SignInPageTest.checkValidEmailAndValidPasswordTest">
+  <component name="RunManager" selected="TestNG.SignInPageTest.checkEmailIdWithoutAtAndValidPasswordTest">
     <configuration name="SignInPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="blingAssignment" />
       <extension name="coverage">
@@ -136,9 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SignInPageTest.checkEmailIdWithoutAtAndValidPasswordTest" />
         <item itemvalue="TestNG.SignInPageTest.checkValidEmailAndValidPasswordTest" />
         <item itemvalue="TestNG.SignInPageTest" />
-        <item itemvalue="TestNG.SignInPageTest.checkEmailIdWithoutAtAndValidPasswordTest" />
         <item itemvalue="TestNG.SignInPageTest.checkInvalidEmailAndEmptyPasswordTest" />
         <item itemvalue="TestNG.SignInPageTest.checkInvalidEmailAndInvalidPasswordTest" />
       </list>
@@ -160,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675421102057</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bling-assignment">
+      <created>1677843726593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677843726593</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
