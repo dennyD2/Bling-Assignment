@@ -115,8 +115,8 @@ public class SignInPage extends BasePage {
     public boolean enterInvalidEmailAndEmptyPassword(String invalidEmail){
         driver.findElement(emailAddress).sendKeys(invalidEmail);
         driver.findElement(signInButton).click();
-        waitTillElementIsDisplayed(pleaseEnterValidEmail);
-        return driver.findElement(pleaseEnterValidEmail).isDisplayed();
+        waitTillElementIsDisplayed(pleaseEnterYourPassword);
+        return driver.findElement(pleaseEnterYourPassword).isDisplayed();
     }
     public boolean enterValidPasswordAndEmptyEmail(){
         driver.findElement(password).sendKeys(AppConfig.validPassword);
