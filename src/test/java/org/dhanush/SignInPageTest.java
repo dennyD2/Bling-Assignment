@@ -1,6 +1,5 @@
 package org.dhanush;
 import org.dhanush.pages.SignInPage;
-import org.junit.jupiter.api.BeforeEach;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -23,12 +22,12 @@ public class SignInPageTest {
         Assert.assertEquals(page.enterValidEmailAndValidPassword(), true);
     }
     @Test
-    public void checkInvalidEmailAndInvalidPasswordTest(){
-        Assert.assertEquals(page.enterInvalidEmailAndInvalidPassword("dhanushdenny@gmail.com","bling@12345"), true);
+    public void checkInvalidCredentialsTest(){
+        Assert.assertEquals(page.enterInvalidCredentials("dhanushdenny@gmail.com","bling@12345"), true);
     }
     @Test
     public void checkSignUpLinkForInvalidEmailInvalidPasswordTest(){
-        Assert.assertEquals(page.checkSignUpLinkForInvalidEmailInvalidPassword("dhanushdenny@gmail.com","bling@12345"), true);
+        Assert.assertEquals(page.checkSignUpLinkForInvalidCredentials("dhanushdenny@gmail.com","bling@12345"), true);
     }
     @Test
     public void checkEmailIdWithoutAtAndValidPasswordTest(){
@@ -47,8 +46,8 @@ public class SignInPageTest {
         Assert.assertEquals(page.checkSignUpLinkForInvalidEmailAndValidPassword("dhanushdenny@gmailcom"), true);
     }
     @Test
-    public void checkWithEmptyEmailAndPasswordTest(){
-        Assert.assertEquals(page.checkWithEmptyEmailAndPassword(), true);
+    public void checkWithEmptyCredentialsTest(){
+        Assert.assertEquals(page.checkWithEmptyCredentials(), true);
     }
     @Test
     public void checkValidEmailAndEmptyPasswordTest(){
@@ -57,6 +56,18 @@ public class SignInPageTest {
     @Test
     public void checkInvalidEmailAndEmptyPasswordTest(){
         Assert.assertEquals(page.enterInvalidEmailAndEmptyPassword("dhanush2denny@gmail.con"), true);
+    }
+    @Test
+    public void checkEmptyEmailValidPasswordTest(){
+        Assert.assertEquals(page.enterEmptyEmailValidPasswordAnd(), true);
+    }
+    @Test
+    public void checkEmptyEmailInvalidPasswordTest(){
+        Assert.assertEquals(page.enterEmptyEmailInvalidPassword("bling12345"), true);
+    }
+    @Test
+    public void checkPasswordIsAtleast5CharactersTest(){
+        Assert.assertEquals(page.isPasswordAbove5Characters("blin"), true);
     }
 
     @AfterMethod

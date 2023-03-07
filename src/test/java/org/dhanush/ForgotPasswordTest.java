@@ -1,31 +1,50 @@
 package org.dhanush;
 
-import org.dhanush.pages.SignInPage;
+import org.dhanush.pages.ForgotPasswordPopup;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class ForgotPasswordTest {
-    private SignInPage page;
+    private ForgotPasswordPopup page;
 
-    @BeforeClass
+    @BeforeMethod
     public void setUp(){
-        page = new SignInPage();
+        page = new ForgotPasswordPopup();
         page.launchBrowser();
     }
 
-//    @Test
-//    public void forgotPasswordTest() throws InterruptedException {
-//        page.clickForgotPassword();
-//        Assert.assertEquals(page.isForgotPasswordModalDisplayed(), true);
-//    }
+    @Test
+    public void checkForgotPasswordLink(){
+        Assert.assertEquals(page.isForgotPasswordLinkPresent(), true);
+    }
     @Test
     public void checkPresenceOfUIElementsTest(){
         Assert.assertEquals(page.checkPresenceOfUIElements(), true);
     }
+    @Test
+    public void checkCloseButton(){
+        Assert.assertEquals(page.checkCloseButton(), true);
+    }
+    @Test
+    public void checkResetPasswordWithValidCredentials(){
+        Assert.assertEquals(page.checkResetPasswordWithValidCredentials(), true);
+    }
+//    Bug in this test
+//    @Test
+//    public void checkResetPasswordWithInvalidCredentialsTest(){
+//        Assert.assertFalse(page.checkResetPasswordWithInvalidCredentials("dhanush2denny.com"));
+//    }
+    @Test
+    public void checkWithEmptyCredentials(){
+        Assert.assertEquals(page.checkWithEmptyCredentials(), true);
+    }
+    @Test
+    public void checkBackToLoginButton(){
+        Assert.assertEquals(page.checkBackToLoginButton(), true);
+    }
 
-    @AfterClass
+
+    @AfterMethod
     public void cleanUp(){
         page.killBrowser();
     }

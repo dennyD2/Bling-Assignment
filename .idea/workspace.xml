@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c8702320-3479-400b-ac66-b867826e06c7" name="Changes" comment="Bling-assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dhanush/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dhanush/pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dhanush/ForgotPasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dhanush/ForgotPasswordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dhanush/SignInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dhanush/SignInPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +44,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SignInPageTest.checkInvalidEmailAndEmptyPasswordTest">
-    <configuration name="SignInPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="blingAssignment" />
+  <component name="RunManager" selected="TestNG.ForgotPasswordTest.checkWithEmptyCredentialsTest">
+    <configuration name="ForgotPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="blingTesting" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dhanush.*" />
@@ -51,7 +54,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.dhanush" />
-      <option name="MAIN_CLASS_NAME" value="org.dhanush.SignInPageTest" />
+      <option name="MAIN_CLASS_NAME" value="org.dhanush.ForgotPasswordTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -59,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInPageTest.checkEmailIdWithoutAtAndValidPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="blingAssignment" />
+    <configuration name="ForgotPasswordTest.checkForgotPasswordLinkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="blingTesting" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dhanush.*" />
@@ -68,8 +71,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.dhanush" />
-      <option name="MAIN_CLASS_NAME" value="org.dhanush.SignInPageTest" />
-      <option name="METHOD_NAME" value="checkEmailIdWithoutAtAndValidPasswordTest" />
+      <option name="MAIN_CLASS_NAME" value="org.dhanush.ForgotPasswordTest" />
+      <option name="METHOD_NAME" value="checkForgotPasswordLinkTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -77,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInPageTest.checkInvalidEmailAndEmptyPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="blingAssignment" />
+    <configuration name="ForgotPasswordTest.checkResetPasswordWithInvalidCredentialsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="blingTesting" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dhanush.*" />
@@ -86,8 +89,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.dhanush" />
-      <option name="MAIN_CLASS_NAME" value="org.dhanush.SignInPageTest" />
-      <option name="METHOD_NAME" value="checkInvalidEmailAndEmptyPasswordTest" />
+      <option name="MAIN_CLASS_NAME" value="org.dhanush.ForgotPasswordTest" />
+      <option name="METHOD_NAME" value="checkResetPasswordWithInvalidCredentialsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -95,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInPageTest.checkInvalidEmailAndInvalidPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="blingAssignment" />
+    <configuration name="ForgotPasswordTest.checkWithEmptyCredentialsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="blingTesting" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dhanush.*" />
@@ -104,8 +107,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.dhanush" />
-      <option name="MAIN_CLASS_NAME" value="org.dhanush.SignInPageTest" />
-      <option name="METHOD_NAME" value="checkInvalidEmailAndInvalidPasswordTest" />
+      <option name="MAIN_CLASS_NAME" value="org.dhanush.ForgotPasswordTest" />
+      <option name="METHOD_NAME" value="checkWithEmptyCredentialsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInPageTest.checkValidEmailAndValidPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="blingAssignment" />
+    <configuration name="SignInPageTest.checkPasswordIsAtleast5CharactersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="blingTesting" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dhanush.*" />
@@ -123,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.dhanush" />
       <option name="MAIN_CLASS_NAME" value="org.dhanush.SignInPageTest" />
-      <option name="METHOD_NAME" value="checkValidEmailAndValidPasswordTest" />
+      <option name="METHOD_NAME" value="checkPasswordIsAtleast5CharactersTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SignInPageTest.checkInvalidEmailAndEmptyPasswordTest" />
-        <item itemvalue="TestNG.SignInPageTest" />
-        <item itemvalue="TestNG.SignInPageTest.checkEmailIdWithoutAtAndValidPasswordTest" />
-        <item itemvalue="TestNG.SignInPageTest.checkValidEmailAndValidPasswordTest" />
-        <item itemvalue="TestNG.SignInPageTest.checkInvalidEmailAndInvalidPasswordTest" />
+        <item itemvalue="TestNG.ForgotPasswordTest.checkWithEmptyCredentialsTest" />
+        <item itemvalue="TestNG.ForgotPasswordTest" />
+        <item itemvalue="TestNG.ForgotPasswordTest.checkResetPasswordWithInvalidCredentialsTest" />
+        <item itemvalue="TestNG.SignInPageTest.checkPasswordIsAtleast5CharactersTest" />
+        <item itemvalue="TestNG.ForgotPasswordTest.checkForgotPasswordLinkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677844459693</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bling-assignment">
+      <created>1677845216942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677845216942</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
