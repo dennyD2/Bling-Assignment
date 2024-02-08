@@ -42,7 +42,10 @@ public class ForgotPasswordTest {
     public void checkBackToLoginButton(){
         Assert.assertEquals(page.checkBackToLoginButton(), true);
     }
-
+@Test
+public void titleTest(){
+        page.title();
+}
 
     @AfterMethod
     public void cleanUp(){
