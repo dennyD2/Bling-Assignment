@@ -20,6 +20,8 @@ public class BasePage {
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
+         options.addArguments("--ignore-ssl-errors=yes'");
+        options.addArguments("--ignore-certificate-errors");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(AppConfig.appUrl);
