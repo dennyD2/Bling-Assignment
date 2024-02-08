@@ -32,7 +32,7 @@ jobs:
     - name: Install Chrome  
       uses: browser-actions/setup-chrome@v1  
       with: 
-       chrome-version: 100.0  
+       chrome-version: 115.0  
     - name: Setup Maven
       uses: s4u/setup-maven-action@v1.2.1
       with:
