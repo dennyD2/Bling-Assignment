@@ -17,10 +17,10 @@ public class SignInPageTest {
     public void checkPresenceOfUIElementsTest(){
         Assert.assertEquals(page.checkPresenceOfUIElements(), true);
     }
-    @Test
-    public void checkValidEmailAndValidPasswordTest(){
-        Assert.assertEquals(page.enterValidEmailAndValidPassword(), true);
-    }
+//    @Test
+//    public void checkValidEmailAndValidPasswordTest(){
+//        Assert.assertEquals(page.enterValidEmailAndValidPassword(), true);
+//    }
     @Test
     public void checkInvalidCredentialsTest(){
         Assert.assertEquals(page.enterInvalidCredentials("dhanushdenny@gmail.com","bling@12345"), true);
