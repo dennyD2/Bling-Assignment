@@ -36,12 +36,11 @@ jobs:
           java-distribution: temurin
           maven-version: 3.9.6
           
+    - name: Install Chrome  
+      uses: browser-actions/setup-chrome@v1      
+          
     - name: Run Maven Command
       run: mvn compile test 
-    - name: Install Chrome  
-      uses: browser-actions/setup-chrome@v1
-    
-      
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
