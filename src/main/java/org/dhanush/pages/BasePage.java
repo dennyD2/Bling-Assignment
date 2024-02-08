@@ -18,7 +18,7 @@ public class BasePage {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         options = new ChromeOptions();
-        options.setBrowserVersion("116.0.5845.96");``
+        options.setBrowserVersion("116.0.5845.96");
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
