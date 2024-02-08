@@ -68,7 +68,10 @@ public class ForgotPasswordPopup extends BasePage{
         waitTillElementIsDisplayed(welcomeBackText);
         return driver.findElement(welcomeBackText).isDisplayed();
     }
+<<<<<<< HEAD
     public void title(){
         System.out.println(driver.getTitle());
     }
+=======
+>>>>>>> origin/master
 }
