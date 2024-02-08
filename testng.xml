@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite">
+    <test name="Class Runner Test" >
+        <classes>
+            <class name="org.dhanush.ForgotPasswordTest"></class>
+        </classes>
+    </test>
+</suite>
