@@ -27,10 +27,15 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-    with:
-      maven-version:  3.9.6
-      run: mvn clean 
+    - name: Setup Maven
+      with:
+          checkout-fetch-depth: 0
+          java-version: 8
+          java-distribution: temurin
+          maven-version: 3.9.6
+    - name: Run Maven Command
+      run: mvn compile test
+      
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
