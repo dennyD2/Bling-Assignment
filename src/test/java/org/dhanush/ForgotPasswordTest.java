@@ -46,6 +46,8 @@ public class ForgotPasswordTest {
 public void titleTest(){
         page.title();
 }
+@Test
+public void dummy(){}
 
     @AfterMethod
     public void cleanUp(){

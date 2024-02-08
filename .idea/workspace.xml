@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8702320-3479-400b-ac66-b867826e06c7" name="Changes" comment="Initial">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dhanush/pages/ForgotPasswordPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dhanush/pages/ForgotPasswordPopup.java" afterDir="false" />
+    <list default="true" id="c8702320-3479-400b-ac66-b867826e06c7" name="Changes" comment="Verified">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dhanush/ForgotPasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dhanush/ForgotPasswordTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
