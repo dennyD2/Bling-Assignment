@@ -35,7 +35,7 @@ jobs:
           java-distribution: temurin
           maven-version: 3.9.6
     - name: Run Maven Command
-      run: mvn compile test
+      run: mvn compile test 
       
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
