@@ -40,8 +40,7 @@ jobs:
       run: mvn compile test 
     - name: Install Chrome  
       uses: browser-actions/setup-chrome@v1
-      with:
-         chrome-version: 120
+    
       
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
