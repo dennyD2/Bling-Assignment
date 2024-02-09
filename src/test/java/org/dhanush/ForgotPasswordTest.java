@@ -51,7 +51,7 @@ public void dummy(){}
 
     @AfterMethod
     public void cleanUp(){
-        page.killBrowser();
+//        page.killBrowser();
     }
     @AfterSuite
     public void closeBrowser(){
