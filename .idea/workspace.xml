@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8702320-3479-400b-ac66-b867826e06c7" name="Changes" comment="Final">
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/mavenTest.yml" beforeDir="false" />
+    <list default="true" id="c8702320-3479-400b-ac66-b867826e06c7" name="Changes" comment="Start1x">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dhanush/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dhanush/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dhanush/utils/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dhanush/utils/WaitUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInPageTest.checkPasswordIsAtleast5CharactersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ForgotPasswordTest.titleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="blingTesting" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.dhanush" />
-      <option name="MAIN_CLASS_NAME" value="org.dhanush.SignInPageTest" />
-      <option name="METHOD_NAME" value="checkPasswordIsAtleast5CharactersTest" />
+      <option name="MAIN_CLASS_NAME" value="org.dhanush.ForgotPasswordTest" />
+      <option name="METHOD_NAME" value="titleTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ForgotPasswordTest.dummy" />
+        <item itemvalue="TestNG.ForgotPasswordTest.titleTest" />
         <item itemvalue="TestNG.ForgotPasswordTest.checkWithEmptyCredentialsTest" />
         <item itemvalue="TestNG.ForgotPasswordTest" />
         <item itemvalue="TestNG.ForgotPasswordTest.checkResetPasswordWithInvalidCredentialsTest" />
-        <item itemvalue="TestNG.SignInPageTest.checkPasswordIsAtleast5CharactersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707402482936</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Start">
+      <created>1707406261086</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707406261086</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Start1">
+      <created>1707406349751</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707406349751</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +242,9 @@
     <MESSAGE value="Bling-assignment" />
     <MESSAGE value="Verified" />
     <MESSAGE value="Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+    <MESSAGE value="Start" />
+    <MESSAGE value="Start1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/blingAssignment$SignInPageTest_invalidEmailInvalidPasswordTest.ic" NAME="SignInPageTest.invalidEmailInvalidPasswordTest Coverage Results" MODIFIED="1677837621455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

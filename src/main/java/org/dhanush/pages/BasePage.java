@@ -16,14 +16,11 @@ public class BasePage {
     private ChromeOptions options;
     public void launchBrowser(){
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
         options = new ChromeOptions();
-       // options.setBrowserVersion("114.0.5735.90");
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-         options.addArguments("--ignore-ssl-errors=yes'");
-        options.addArguments("--ignore-certificate-errors");
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(AppConfig.appUrl);
         wait = new WaitUtils().getWait(driver);
