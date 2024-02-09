@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8702320-3479-400b-ac66-b867826e06c7" name="Changes" comment="Start1x">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dhanush/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dhanush/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dhanush/utils/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dhanush/utils/WaitUtils.java" afterDir="false" />
-    </list>
+    <list default="true" id="c8702320-3479-400b-ac66-b867826e06c7" name="Changes" comment="09/02/24" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707406349751</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="09/02/24">
+      <created>1707456066695</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707456066695</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +246,8 @@
     <MESSAGE value="Final" />
     <MESSAGE value="Start" />
     <MESSAGE value="Start1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start1" />
+    <MESSAGE value="09/02/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="09/02/24" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/blingAssignment$SignInPageTest_invalidEmailInvalidPasswordTest.ic" NAME="SignInPageTest.invalidEmailInvalidPasswordTest Coverage Results" MODIFIED="1677837621455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

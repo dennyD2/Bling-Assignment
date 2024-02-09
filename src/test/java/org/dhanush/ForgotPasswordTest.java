@@ -53,4 +53,8 @@ public void dummy(){}
     public void cleanUp(){
         page.killBrowser();
     }
+    @AfterSuite
+    public void closeBrowser(){
+        page.closeBrowser();
+    }
 }

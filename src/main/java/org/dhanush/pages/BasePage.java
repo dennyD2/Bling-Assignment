@@ -38,5 +38,7 @@ public class BasePage {
     public void killBrowser(){
         driver.quit();
     }
-
+    public void closeBrowser(){
+        driver.close();
+    }
 }
