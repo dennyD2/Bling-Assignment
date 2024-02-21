@@ -15,6 +15,8 @@ public class BasePage {
     private WebDriverWait wait;
     private ChromeOptions options;
     public void launchBrowser(){
+        WebDriverManager.chromedriver().clearDriverCache().setup();
+        WebDriverManager.chromedriver().clearResolutionCache().setup();
         WebDriverManager.chromedriver().setup();
         options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
