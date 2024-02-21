@@ -44,7 +44,8 @@ jobs:
           maven-version: 3.9.6
           
     - name: Run Maven command
-      run: mvn compile test
+      run: mvn package
+  
           
    # - name: Run Maven Command
      # run: mvn compile test 
