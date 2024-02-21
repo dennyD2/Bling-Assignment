@@ -24,8 +24,8 @@ jobs:
     
     - name: Install Chrome  
       uses: browser-actions/setup-chrome@v1  
-      with: 
-          chrome-version: 114.0.5735.90 
+      #with: 
+          #chrome-version: 114.0.5735.90 
     
     - uses: actions/checkout@v3
     - name: Set up JDK 8
